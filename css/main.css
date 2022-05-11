@@ -365,3 +365,77 @@ a {
   color: #fff;
 }
 
+.burger-menu {
+  display: none;
+}
+
+/* ANIMATIONS */
+
+.header__block {
+  animation-name: header__block;
+  position: relative;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes header__block {
+  0% {
+    right: 1500px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+.type__left {
+  animation-name: type__left;
+  position: relative;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  scroll-behavior:smooth;
+}
+
+@keyframes type__left {
+  0% {
+    right: 1500px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+.type__right {
+  animation-name: type__right;
+  position: relative;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes type__right {
+  0% {
+    left: 1500px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.rewiews__slider ,.slider__btns, .down__wrapper {
+  animation-name: anim__down;
+  position: relative;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes anim__down {
+  0% {
+    top: 500px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+
