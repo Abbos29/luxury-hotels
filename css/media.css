@@ -179,6 +179,7 @@
 @media (max-width : 768px) {
   .container {
     width: 600px;
+    max-width: 80%;
   }
   .text-14 {
     font-size: 25px;
@@ -221,5 +222,5 @@
 
 /* xs <= Small (sm) */
 @media (max-width : 576px) {
-
+  
 }
